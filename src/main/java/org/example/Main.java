@@ -8,8 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String serverPath = "C:/Program Files/Minecraft Server/Lara Server/";
-        //String folderPath = "./";
+        String serverPath = "./";
 
         MinecraftServerBackup mc = new MinecraftServerBackup(serverPath);
 
